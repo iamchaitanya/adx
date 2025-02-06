@@ -59,7 +59,7 @@ function checkAnswer() {
     document.getElementById("result-display").innerHTML = `Incorrect. Correct answer was ${correctAnswer}. Time taken: ${timeTaken} seconds`;
   }
   document.getElementById("answer-input").value = ""; // clear input field
-  setTimeout(generateProblem, 2000); // generate new problem after 2 seconds
+  setTimeout(generateProblem, 1); // generate new problem after 2 seconds
 }
 
 // event listener for submit button
